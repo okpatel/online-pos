@@ -1,5 +1,4 @@
 // src/components/ComponentToPrint.jsx
-
 import React from "react";
 
 export const ComponentToPrint = React.forwardRef((props, ref) => {
