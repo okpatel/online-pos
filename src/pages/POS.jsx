@@ -1,3 +1,5 @@
+// src/pages/POS.jsx
+
 import React, { useEffect, useRef, useState } from "react";
 import MainLayout from "../layouts/MainLayout";
 import axios from "axios";
