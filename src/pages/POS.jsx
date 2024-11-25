@@ -74,7 +74,8 @@ function POS() {
 
   const handlePrint = () => {
     console.log("Printing PDF...");
-    handleReactToPrint();
+    // handleReactToPrint();
+    window.print();
   };
 
   useEffect(() => {

@@ -1,7 +1,7 @@
 // src/components/ComponentToPrint.jsx
-import React from "react";
+import React, { forwardRef }  from "react";
 
-export const ComponentToPrint = React.forwardRef((props, ref) => {
+export const ComponentToPrint = forwardRef((props, ref) => {
   const { cart, totalAmount } = props;
   return (
     <div ref={ref} className="p-5">
